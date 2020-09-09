@@ -9,8 +9,8 @@ import json
 # get top 100 coins and save the list of the names
 # get past 60 days of data (hourly) and get std of each. 
 
-list_cap = 5
-date_cutoff = 5
+list_cap = 100
+date_cutoff = 60
 # Minutely data will be used for duration within 1 day, 
 # Hourly data will be used for duration between 1 day and 90 days, 
 # Daily data will be used for duration above 90 days.
@@ -21,7 +21,7 @@ coin_list = {}
 
 
 end_point = 'https://api.coingecko.com/api/v3/coins/'
-volume_end_point = end_point + '{}/market_chart?vs_currency={}&{}={}'
+volume_end_point = end_point + '{}/market_chart?vs_currency={}&days={}'
 coin_list_end_point = end_point + ('/markets?vs_currency=usd&order=market_cap_desc&per_page={}&page=1&sparkline=false').format(list_cap)
 
 def get_coin_list():
@@ -33,7 +33,7 @@ def get_coin_list():
 	return coin_list
 
 def get_std(i):
-	api_response = requests.get((volume_end_point).format(i, against_currency, 'days', date_cutoff))
+	api_response = requests.get((volume_end_point).format(i, against_currency, date_cutoff))
 	api_data = api_response.json()
 
 	# get raw volumes into a list volume_data
@@ -42,15 +42,21 @@ def get_std(i):
 		volume_data.append(n[1])
 
 	# calculate std and put them in the main dict
-	coin_list[i]['volume_std'] = np.std(volume_data)
+	coin_list[i]['volume_std'] = np.std(volume_data[1:])
+	coin_list[i]['last_hour_volume'] = volume_data[0]
+	coin_list[i]['std_multi'] = round((volume_data[0] / np.std(volume_data[1:])), 2)
+
 
 
 get_coin_list()
 
 for i in coin_list:
 	get_std(i)
+	print (i, coin_list[i])
 
-print (coin_list)
+	# api fetch limit @ 100 per min
+	time.sleep(0.7)
+
 
 
 
