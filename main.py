@@ -6,13 +6,13 @@ import time
 import os
 import json
 
-list_cap = 100
+list_cap = 30
 day_cutoff = 60
 # Minutely data will be used for duration within 1 day, 
 # Hourly data will be used for duration between 1 day and 90 days, 
 # Daily data will be used for duration above 90 days.
 
-std_cutoff = 5
+std_cutoff = 3
 against_currency = "usd"
 coin_list = {}
 outlier_list = {}
@@ -49,8 +49,9 @@ def get_std(i):
 
 	# the first one is the latest hourly volume, 
 	coin_list[i]['volume_std'] = np.std(volume_data[1:])
+	coin_list[i]['volume_mean'] = np.mean(volume_data[1:])
 	coin_list[i]['last_hour_volume'] = volume_data[0]
-	coin_list[i]['std_multi'] = round((coin_list[i]['last_hour_volume'] / coin_list[i]['volume_std']), 2)
+	coin_list[i]['upper_std'] = round(((coin_list[i]['last_hour_volume'] - coin_list[i]['volume_mean']) / coin_list[i]['volume_std']), 4)
 
 
 get_coin_list()
@@ -65,7 +66,7 @@ for i in coin_list:
 
 # Save outliers to outlier_list
 for i in coin_list:
-	if coin_list[i]['std_multi'] > std_cutoff:
+	if coin_list[i]['upper_std'] > std_cutoff:
 		outlier_list[i] = coin_list[i]
 
 print (outlier_list)
