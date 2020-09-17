@@ -6,7 +6,7 @@ import time
 import os
 import json
 
-list_cap = 30
+list_cap = 100
 day_cutoff = 60
 # Minutely data will be used for duration within 1 day, 
 # Hourly data will be used for duration between 1 day and 90 days, 
@@ -16,6 +16,7 @@ std_cutoff = 3
 against_currency = "usd"
 coin_list = {}
 outlier_list = {}
+dataDict = {}
 
 
 end_point = 'https://api.coingecko.com/api/v3/coins/'
@@ -25,6 +26,20 @@ coin_list_end_point = end_point + ('/markets?vs_currency=usd&order=market_cap_de
 def get_data(url):
 	api_response = requests.get(url)
 	return api_response.json()
+
+def export_JSON(directory, dict_name):
+	filename = directory
+	with open(filename, 'r') as f:
+	    data = json.load(f)
+
+	    # overwrite existing obj in json
+	    print (data)
+	    data = dict_name
+
+	os.remove(filename)
+	with open(filename, 'w') as f:
+	    # sort key = true to remain the key order
+	    json.dump(data, f, indent=4, sort_keys=False)
 
 def get_coin_list():
 
@@ -60,15 +75,15 @@ get_coin_list()
 for i in coin_list:
 	get_std(i)
 	print (i, coin_list[i])
+	dataDict[i] = coin_list[i]
 
 	# api limit @ 100 per min
 	time.sleep(0.7)
 
 # Save outliers to outlier_list
-for i in coin_list:
-	if coin_list[i]['upper_std'] > std_cutoff:
-		outlier_list[i] = coin_list[i]
-
-print (outlier_list)
+# for i in coin_list:
+# 	if coin_list[i]['upper_std'] > std_cutoff:
+# 		outlier_list[i] = coin_list[i]
 
 
+export_JSON('volumeData.json', dataDict)

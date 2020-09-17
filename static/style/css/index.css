@@ -1,0 +1,147 @@
+body {
+    padding-top: 3rem;
+    font-family: roboto;
+    background: #CCCCC;
+}
+
+/* font */
+
+.card-text {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.card-label {
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.vs-info {
+    font-weight: 300;
+}
+
+.header,
+.divider,
+.footer {
+    color: #000;
+}
+
+.footer {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+btn:hover,
+btn:focus {
+    outline: 0px
+}
+
+.donate-row {
+    margin-top: 5%;
+    font-weight: 300;
+    font-size: .8em;
+    text-align: center;
+}
+
+/* card alignment */
+
+.container {
+    padding: 1rem 0.25rem;
+    text-align: center;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+/* margin and padding */
+
+.slider-div {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+}
+
+.card-row {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2%;
+}
+
+.card-img-top {
+    width: 60%;
+    margin: 8% auto 5% auto;
+}
+
+.card {
+    margin-top: 5%;
+    border-radius: 0;
+    align-content: center;
+    flex: 1 1;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.divider {
+    margin-top: 5%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icon {
+    margin-right: 10%
+}
+
+.coin-name {
+    margin-top: .5%;
+}
+
+/* button */
+
+.btn {
+    border-radius: 0;
+    border-color: #091C34;
+    border-width: 2px;
+    color: #091C34;
+}
+
+.btn-outline-primary.disabled {
+    font-size: 1em;
+    color: #999;
+    border: #999
+}
+
+.btn:hover,
+.btn:focus {
+    background: #091C34;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* divider */
+
+.divider hr {
+    background-color: #FFF;
+    height: 1px;
+    border: 0;
+}
