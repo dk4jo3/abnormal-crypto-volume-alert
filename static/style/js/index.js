@@ -38,10 +38,10 @@ getData();
 let slider = document.querySelector('.custom-range')
 
 //divide by 100 since the html range is -500 to 500 
-stdMulti.innerHTML = (slider.valueAsNumber) / 100
+stdMulti.innerHTML = (slider.valueAsNumber) / 10
 
 function refresh() {
-    rangeValue = (slider.valueAsNumber) / 100
+    rangeValue = (slider.valueAsNumber) / 10
 
     // divided by 100 to since the HTML slider range is 0 to 500 
     stdMulti.innerHTML = rangeValue
