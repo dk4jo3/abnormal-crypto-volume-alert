@@ -50,7 +50,7 @@ def get_coin_list():
 
 	for i in api_data:
 		coin_list[i['id']] = {} #i[id] is the coin id 
-		coin_list[i['id']]['symbol'] = i['symbol']
+		coin_list[i['id']]['symbol'] = (i['symbol']).upper()
 	return coin_list
 
 def get_std(i):
