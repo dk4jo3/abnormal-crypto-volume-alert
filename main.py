@@ -49,7 +49,8 @@ def get_coin_list():
 	api_data = api_response.json()
 
 	for i in api_data:
-		coin_list[i['id']] = {}
+		coin_list[i['id']] = {} #i[id] is the coin id 
+		coin_list[i['id']]['symbol'] = i['symbol']
 	return coin_list
 
 def get_std(i):
@@ -74,12 +75,13 @@ get_coin_list()
 # init 
 for i in coin_list:
 	get_std(i)
-	print (i, coin_list[i])
 	dataDict[i] = coin_list[i]
+	print (i, coin_list[i])
 
 	# api limit @ 100 per min
 	time.sleep(0.7)
 
+print (dataDict)
 
 # save time to dict 
 now = datetime.now()

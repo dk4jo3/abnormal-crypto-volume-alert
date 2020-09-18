@@ -20,7 +20,7 @@ async function getData(std_cap) {
     const cards = objKeys.map(key => {
         return `<div class="card">
                     <div class="card-body">
-                        <h2 class="card-title">${key}</h2>
+                        <h2 class="card-title">${dataObj[key].symbol}</h2>
                         <hr>
                         <h5>${dataObj[key].upper_std}</h5>
                     </div>
