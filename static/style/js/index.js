@@ -32,23 +32,22 @@ async function getData(std_cap) {
     cardRow.innerHTML = cards;
 }
 
-getData();
-
-
 let slider = document.querySelector('.custom-range')
 
-//divide by 100 since the html range is -500 to 500 
+//divide by 100 since the html range is 0 to 50 
 stdMulti.innerHTML = (slider.valueAsNumber) / 10
 
 function refresh() {
     rangeValue = (slider.valueAsNumber) / 10
 
-    // divided by 100 to since the HTML slider range is 0 to 500 
+    // divided by 10 to since the HTML slider range is 0 to 50
     stdMulti.innerHTML = rangeValue
 
-    //rerun getData() with the input value param
+    //re-run getData() with the input value param
     getData(rangeValue)
 }
 
 //refresh when it moves
 slider.addEventListener('input', refresh)
+
+getData((slider.valueAsNumber) / 10);
