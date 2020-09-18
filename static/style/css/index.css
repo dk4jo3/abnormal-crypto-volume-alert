@@ -78,20 +78,23 @@ a.custom-card:hover {
     padding-left: 4vw;
     padding-right: 4vw;
     margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    margin: 12px;
+    border-radius: 0;
+    align-content: center;
+    flex: 0 1 calc(33% - 24px);
+    border-radius: 8px;
+    border-style: none;
 }
 
 .card-img-top {
     width: 60%;
     margin: 8% auto 5% auto;
-}
-
-.card {
-    margin-top: 5%;
-    border-radius: 0;
-    align-content: center;
-    flex: 1 1;
-    border-radius: 8px;
-    border-style: none;
 }
 
 .divider {

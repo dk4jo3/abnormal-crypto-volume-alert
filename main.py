@@ -80,6 +80,12 @@ for i in coin_list:
 	# api limit @ 100 per min
 	time.sleep(0.7)
 
+
+# save time to dict 
+now = datetime.now()
+current_time = now.strftime("%b %d %Y %H:%M:%S")
+dataDict['time'] = current_time
+
 # Save outliers to outlier_list
 # for i in coin_list:
 # 	if coin_list[i]['upper_std'] > std_cutoff:
