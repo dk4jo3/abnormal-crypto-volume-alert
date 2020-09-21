@@ -1,7 +1,7 @@
 body {
     padding-top: 3rem;
     font-family: roboto;
-    background: #CCCCC;
+    background: #FFFFFF;
 }
 
 /* font */
@@ -86,7 +86,7 @@ a.custom-card:hover {
 .card {
     margin: 12px;
     align-content: center;
-    flex: 1 1 30%;
+    flex: 0 1 calc(33% - 24px);
     border-radius: 8px;
     border-style: none;
 }
@@ -146,4 +146,10 @@ a.custom-card:hover {
     background-color: #FFF;
     height: 1px;
     border: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .card {
+        flex: 0 1 calc(50% - 24px)
+    }
 }
