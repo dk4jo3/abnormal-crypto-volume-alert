@@ -7,7 +7,7 @@ import os
 import json
 
 list_cap = 100
-day_cutoff = 60
+day_cutoff = 90
 # Minutely data will be used for duration within 1 day, 
 # Hourly data will be used for duration between 1 day and 90 days, 
 # Daily data will be used for duration above 90 days.
