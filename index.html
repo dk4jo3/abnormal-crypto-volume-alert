@@ -20,16 +20,20 @@
 
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤔</text></svg>">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89453826-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-89453826-2');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89453826-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-89453826-2');
+
+    </script>
 
 
 </head>
@@ -52,10 +56,10 @@
                 <input type="range" class="custom-range" id="stdSlider" min="0" max="50">
             </div>
         </div>
-        
+
         <div>
             <h6>Last hourly volume is over <span id="stdMulti"></span> times of the standard deviation of its historic volume (past 90 dyas).
-</h6>
+            </h6>
         </div>
 
         <div class="row card-row">
@@ -83,4 +87,6 @@
         <script src="static/style/js/index.js"></script>
     </div>
 
-</body></html>
+</body>
+
+</html>
