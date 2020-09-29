@@ -66,8 +66,8 @@ def get_std(i):
 	# the first one is the latest hourly volume, 
 	coin_list[i]['volume_std'] = np.std(volume_data[1:])
 	coin_list[i]['volume_mean'] = np.mean(volume_data[1:])
-	coin_list[i]['last_hour_volume'] = volume_data[0]
-	coin_list[i]['upper_std'] = round(((coin_list[i]['last_hour_volume'] - coin_list[i]['volume_mean']) / coin_list[i]['volume_std']), 4)
+	coin_list[i]['last_24hour_volume'] = volume_data[0]
+	coin_list[i]['upper_std'] = round(((coin_list[i]['last_24hour_volume'] - coin_list[i]['volume_mean']) / coin_list[i]['volume_std']), 4)
 
 
 get_coin_list()
