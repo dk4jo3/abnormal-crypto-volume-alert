@@ -61,7 +61,7 @@ def get_std(i):
 	volume_data = []
 
 	for n in api_data['total_volumes']:
-		volume_data.append(n[1])
+		volume_data.append(n[1]) #n[0] is the time code
 
 	# the last one is the latest hourly volume, 
 	coin_list[i]['volume_std'] = np.std(volume_data[:-1])
@@ -75,8 +75,13 @@ get_coin_list()
 # init 
 for i in coin_list:
 	get_std(i)
-	dataDict[i] = coin_list[i]
-	print (i, coin_list[i])
+
+	#check is std or mean is NaN, 
+	if np.isnan(coin_list[i]['volume_std']) == False or np.isnan(coin_list[i]['volume_mean']) == False:
+		dataDict[i] = coin_list[i]
+		print (i, coin_list[i])
+	else: 
+		pass
 
 	# api limit @ 100 fetch per minute
 	time.sleep(0.7)
