@@ -19,12 +19,12 @@ async function getData(std_cap) {
 
     const cards = objKeys.map(key => {
         return `<div class="card">
-                    <div class="card-body">
-                        <a href="https://coingecko.com/en/coins/${key}"><h2 class="card-title">${dataObj[key].symbol}</h2></a>
+                    <a href="https://coingecko.com/en/coins/${key}" class="custom-card"><div class="card-body">
+                        <h2 class="card-title">${dataObj[key].symbol}</h2>
                         <hr>
                         <h5>${dataObj[key].upper_std}</h5>
                     </div>
-                </div>`
+                </div></a>`
     }).join('');
     const cardRow = document.querySelector('.card-row');
     const timeRow = document.querySelector('.donate-row .time');
