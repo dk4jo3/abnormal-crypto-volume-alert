@@ -160,6 +160,14 @@ a.custom-card:hover {
     border: 0;
 }
 
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
 @media screen and (max-width: 425px) {
     .card {
         flex: 0 1 calc(50% - 24px)
