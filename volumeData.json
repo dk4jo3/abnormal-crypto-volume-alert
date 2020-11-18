@@ -1,6 +1,12 @@
 {
     "bitcoin": {
         "symbol": "BTC",
+<<<<<<< Updated upstream
+=======
+        "1h": -1.1,
+        "24h": -0.01,
+        "7d": 15.57,
+>>>>>>> Stashed changes
         "volume_std": 7306842626.361584,
         "volume_mean": 23210530833.210403,
         "last_24hour_volume": 39377770133.30773,
@@ -8,6 +14,7 @@
     },
     "ethereum": {
         "symbol": "ETH",
+<<<<<<< Updated upstream
         "volume_std": 4990018644.353633,
         "volume_mean": 11797794370.556747,
         "last_24hour_volume": 15095015574.332684,
@@ -15,6 +22,21 @@
     },
     "tether": {
         "symbol": "USDT",
+=======
+        "1h": -0.29,
+        "24h": -2.14,
+        "7d": 4.96,
+        "volume_std": 4991074809.722697,
+        "volume_mean": 11798469925.401451,
+        "last_24hour_volume": 13779684688.569576,
+        "upper_std": 0.397
+    },
+    "tether": {
+        "symbol": "USDT",
+        "1h": -0.06,
+        "24h": 0.47,
+        "7d": 0.35,
+>>>>>>> Stashed changes
         "volume_std": 5952486149.888293,
         "volume_mean": 33542163415.785614,
         "last_24hour_volume": 48351397590.70802,
@@ -22,6 +44,7 @@
     },
     "ripple": {
         "symbol": "XRP",
+<<<<<<< Updated upstream
         "volume_std": 435293930.9773349,
         "volume_mean": 1712053635.8804896,
         "last_24hour_volume": 3508853947.7068706,
@@ -57,6 +80,61 @@
     },
     "binancecoin": {
         "symbol": "BNB",
+=======
+        "1h": 0.36,
+        "24h": -4.25,
+        "7d": 14.15,
+        "volume_std": 436731738.40350306,
+        "volume_mean": 1712565268.5691414,
+        "last_24hour_volume": 3478218327.7224245,
+        "upper_std": 4.0429
+    },
+    "chainlink": {
+        "symbol": "LINK",
+        "1h": 0.18,
+        "24h": 0.62,
+        "7d": 1.42,
+        "volume_std": 468433729.1699939,
+        "volume_mean": 958665818.6940751,
+        "last_24hour_volume": 1654014884.7281418,
+        "upper_std": 1.4844
+    },
+    "litecoin": {
+        "symbol": "LTC",
+        "1h": -0.28,
+        "24h": -2.36,
+        "7d": 26.25,
+        "volume_std": 541266993.8097019,
+        "volume_mean": 2207057883.1177936,
+        "last_24hour_volume": 4502943041.930291,
+        "upper_std": 4.2417
+    },
+    "bitcoin-cash": {
+        "symbol": "BCH",
+        "1h": -0.01,
+        "24h": -4.33,
+        "7d": -5.17,
+        "volume_std": 384542586.83602315,
+        "volume_mean": 2292393004.108468,
+        "last_24hour_volume": 1730766817.521193,
+        "upper_std": -1.4605
+    },
+    "polkadot": {
+        "symbol": "DOT",
+        "1h": 0.07,
+        "24h": -4.36,
+        "7d": 4.17,
+        "volume_std": 177978057.99599758,
+        "volume_mean": 250389861.3236328,
+        "last_24hour_volume": 236597785.6503657,
+        "upper_std": -0.0775
+    },
+    "binancecoin": {
+        "symbol": "BNB",
+        "1h": 0.02,
+        "24h": -2.57,
+        "7d": -1.26,
+>>>>>>> Stashed changes
         "volume_std": 170332959.42011434,
         "volume_mean": 390508741.5047176,
         "last_24hour_volume": 358664347.1484877,
@@ -64,6 +142,12 @@
     },
     "cardano": {
         "symbol": "ADA",
+<<<<<<< Updated upstream
+=======
+        "1h": -0.07,
+        "24h": -4.88,
+        "7d": -0.83,
+>>>>>>> Stashed changes
         "volume_std": 100544429.77000895,
         "volume_mean": 459558971.4920125,
         "last_24hour_volume": 508834274.79660636,
@@ -71,6 +155,12 @@
     },
     "bitcoin-cash-sv": {
         "symbol": "BSV",
+<<<<<<< Updated upstream
+=======
+        "1h": 0.08,
+        "24h": -5.04,
+        "7d": 1.29,
+>>>>>>> Stashed changes
         "volume_std": 190790313.76871648,
         "volume_mean": 659778555.6712499,
         "last_24hour_volume": 549208035.4392002,
@@ -78,6 +168,7 @@
     },
     "usd-coin": {
         "symbol": "USDC",
+<<<<<<< Updated upstream
         "volume_std": 480878524.29956996,
         "volume_mean": 548921192.95194,
         "last_24hour_volume": 806622194.8112806,
@@ -92,6 +183,31 @@
     },
     "wrapped-bitcoin": {
         "symbol": "WBTC",
+=======
+        "1h": -0.35,
+        "24h": -0.5,
+        "7d": -0.33,
+        "volume_std": 480907473.9915251,
+        "volume_mean": 549068919.5433307,
+        "last_24hour_volume": 789571178.9202315,
+        "upper_std": 0.5001
+    },
+    "eos": {
+        "symbol": "EOS",
+        "1h": -0.12,
+        "24h": -4.5,
+        "7d": 3.61,
+        "volume_std": 622276194.0133159,
+        "volume_mean": 1915688574.1378,
+        "last_24hour_volume": 2117601760.0232563,
+        "upper_std": 0.3245
+    },
+    "wrapped-bitcoin": {
+        "symbol": "WBTC",
+        "1h": -1.04,
+        "24h": -0.08,
+        "7d": 15.87,
+>>>>>>> Stashed changes
         "volume_std": 32826780.901996534,
         "volume_mean": 63511102.93478898,
         "last_24hour_volume": 117844569.69975294,
@@ -99,6 +215,12 @@
     },
     "monero": {
         "symbol": "XMR",
+<<<<<<< Updated upstream
+=======
+        "1h": 0.24,
+        "24h": -1.54,
+        "7d": 5.74,
+>>>>>>> Stashed changes
         "volume_std": 99028534.10309339,
         "volume_mean": 253478499.5343791,
         "last_24hour_volume": 329360708.32759196,
@@ -106,6 +228,7 @@
     },
     "tron": {
         "symbol": "TRX",
+<<<<<<< Updated upstream
         "volume_std": 674764427.1949517,
         "volume_mean": 1063820778.0578558,
         "last_24hour_volume": 901837129.9234325,
@@ -113,6 +236,21 @@
     },
     "stellar": {
         "symbol": "XLM",
+=======
+        "1h": -0.23,
+        "24h": -4.66,
+        "7d": 1.55,
+        "volume_std": 674917593.9136643,
+        "volume_mean": 1063864143.6742133,
+        "last_24hour_volume": 897947202.9098212,
+        "upper_std": -0.2458
+    },
+    "stellar": {
+        "symbol": "XLM",
+        "1h": 0.1,
+        "24h": -4.83,
+        "7d": 3.85,
+>>>>>>> Stashed changes
         "volume_std": 44632416.01234569,
         "volume_mean": 148134626.78684592,
         "last_24hour_volume": 190106952.86524436,
@@ -120,6 +258,7 @@
     },
     "cdai": {
         "symbol": "CDAI",
+<<<<<<< Updated upstream
         "volume_std": 24581347.829059675,
         "volume_mean": 18518503.66524489,
         "last_24hour_volume": 5055025.229077427,
@@ -127,6 +266,21 @@
     },
     "tezos": {
         "symbol": "XTZ",
+=======
+        "1h": -0.13,
+        "24h": -0.01,
+        "7d": -0.17,
+        "volume_std": 24586832.48437704,
+        "volume_mean": 18516273.776312403,
+        "last_24hour_volume": 809763.4226975667,
+        "upper_std": -0.7202
+    },
+    "tezos": {
+        "symbol": "XTZ",
+        "1h": 0.02,
+        "24h": -3.82,
+        "7d": -4.5,
+>>>>>>> Stashed changes
         "volume_std": 58979487.20536787,
         "volume_mean": 127505958.93906674,
         "last_24hour_volume": 120898173.02792697,
@@ -134,6 +288,12 @@
     },
     "okb": {
         "symbol": "OKB",
+<<<<<<< Updated upstream
+=======
+        "1h": 0.12,
+        "24h": 13.61,
+        "7d": 17.52,
+>>>>>>> Stashed changes
         "volume_std": 30600212.011433426,
         "volume_mean": 68127117.4576662,
         "last_24hour_volume": 32540715.36841145,
@@ -141,6 +301,12 @@
     },
     "crypto-com-chain": {
         "symbol": "CRO",
+<<<<<<< Updated upstream
+=======
+        "1h": -0.79,
+        "24h": -3.9,
+        "7d": -8.44,
+>>>>>>> Stashed changes
         "volume_std": 18096738.378774785,
         "volume_mean": 60326208.49647576,
         "last_24hour_volume": 42339318.607139975,
@@ -148,6 +314,7 @@
     },
     "leo-token": {
         "symbol": "LEO",
+<<<<<<< Updated upstream
         "volume_std": 3024248.1622606423,
         "volume_mean": 11839536.747175744,
         "last_24hour_volume": 12593949.73320879,
@@ -176,6 +343,51 @@
     },
     "filecoin": {
         "symbol": "FIL",
+=======
+        "1h": -0.04,
+        "24h": -0.36,
+        "7d": -0.08,
+        "volume_std": 3024918.45751181,
+        "volume_mean": 11839248.486001745,
+        "last_24hour_volume": 12588729.720851023,
+        "upper_std": 0.2478
+    },
+    "cosmos": {
+        "symbol": "ATOM",
+        "1h": 0.24,
+        "24h": -3.22,
+        "7d": -0.99,
+        "volume_std": 143049389.4544729,
+        "volume_mean": 293141286.1197789,
+        "last_24hour_volume": 235804685.94702873,
+        "upper_std": -0.4008
+    },
+    "nem": {
+        "symbol": "XEM",
+        "1h": 0.01,
+        "24h": -6.24,
+        "7d": -3.89,
+        "volume_std": 52375512.7149192,
+        "volume_mean": 49563099.69153291,
+        "last_24hour_volume": 24957424.764742475,
+        "upper_std": -0.4698
+    },
+    "neo": {
+        "symbol": "NEO",
+        "1h": -0.07,
+        "24h": -4.68,
+        "7d": 0.04,
+        "volume_std": 226166152.03624713,
+        "volume_mean": 444028110.51636106,
+        "last_24hour_volume": 337738002.47216517,
+        "upper_std": -0.47
+    },
+    "filecoin": {
+        "symbol": "FIL",
+        "1h": -0.29,
+        "24h": -3.56,
+        "7d": -6.57,
+>>>>>>> Stashed changes
         "volume_std": 60664783.18803759,
         "volume_mean": 96224736.13046595,
         "last_24hour_volume": 80504487.56326707,
@@ -183,6 +395,7 @@
     },
     "dai": {
         "symbol": "DAI",
+<<<<<<< Updated upstream
         "volume_std": 85914278.21329935,
         "volume_mean": 146723426.9537488,
         "last_24hour_volume": 244509219.96778297,
@@ -197,10 +410,36 @@
     },
     "aave": {
         "symbol": "AAVE",
+=======
+        "1h": -0.16,
+        "24h": 0.46,
+        "7d": -0.01,
+        "volume_std": 85932666.07043628,
+        "volume_mean": 146734411.83694017,
+        "last_24hour_volume": 163011104.24830514,
+        "upper_std": 0.1894
+    },
+    "huobi-token": {
+        "symbol": "HT",
+        "1h": -0.45,
+        "24h": 2.73,
+        "7d": 3.26,
+        "volume_std": 50628588.712192036,
+        "volume_mean": 128555938.81612584,
+        "last_24hour_volume": 180710935.98395568,
+        "upper_std": 1.0301
+    },
+    "aave": {
+        "symbol": "AAVE",
+        "1h": 0.32,
+        "24h": -2.99,
+        "7d": 9.98,
+>>>>>>> Stashed changes
         "volume_std": 114784129.96845523,
         "volume_mean": 112980819.46478738,
         "last_24hour_volume": 281141833.2057633,
         "upper_std": 1.465
+<<<<<<< Updated upstream
     },
     "celsius-degree-token": {
         "symbol": "CEL",
@@ -211,17 +450,45 @@
     },
     "dash": {
         "symbol": "DASH",
+=======
+    },
+    "dash": {
+        "symbol": "DASH",
+        "1h": -0.14,
+        "24h": -5.64,
+        "7d": 14.56,
+>>>>>>> Stashed changes
         "volume_std": 1989189406.1732616,
         "volume_mean": 505772667.15184134,
         "last_24hour_volume": 332936754.0374334,
         "upper_std": -0.0869
+<<<<<<< Updated upstream
     },
     "vechain": {
         "symbol": "VET",
+=======
+    },
+    "celsius-degree-token": {
+        "symbol": "CEL",
+        "1h": 0.12,
+        "24h": 2.19,
+        "7d": 6.92,
+        "volume_std": 2643445.215049433,
+        "volume_mean": 3325987.521810645,
+        "last_24hour_volume": 13270637.649554038,
+        "upper_std": 3.762
+    },
+    "vechain": {
+        "symbol": "VET",
+        "1h": -0.21,
+        "24h": -6.47,
+        "7d": 0.24,
+>>>>>>> Stashed changes
         "volume_std": 31387981.343412723,
         "volume_mean": 122072932.14908715,
         "last_24hour_volume": 119943921.77011396,
         "upper_std": -0.0678
+<<<<<<< Updated upstream
     },
     "yearn-finance": {
         "symbol": "YFI",
@@ -232,10 +499,19 @@
     },
     "uniswap": {
         "symbol": "UNI",
+=======
+    },
+    "uniswap": {
+        "symbol": "UNI",
+        "1h": -0.89,
+        "24h": -9.3,
+        "7d": 10.54,
+>>>>>>> Stashed changes
         "volume_std": 699472872.5909363,
         "volume_mean": 467640284.5338655,
         "last_24hour_volume": 356245840.4272887,
         "upper_std": -0.1593
+<<<<<<< Updated upstream
     },
     "iota": {
         "symbol": "MIOTA",
@@ -246,6 +522,34 @@
     },
     "ethereum-classic": {
         "symbol": "ETC",
+=======
+    },
+    "yearn-finance": {
+        "symbol": "YFI",
+        "1h": 1.08,
+        "24h": 13.84,
+        "7d": 31.46,
+        "volume_std": 250931893.79330686,
+        "volume_mean": 462048676.9121339,
+        "last_24hour_volume": 1214943706.1851919,
+        "upper_std": 3.0004
+    },
+    "iota": {
+        "symbol": "MIOTA",
+        "1h": -0.52,
+        "24h": -4.92,
+        "7d": -0.12,
+        "volume_std": 9615923.08036591,
+        "volume_mean": 13385615.921277912,
+        "last_24hour_volume": 10743885.53975638,
+        "upper_std": -0.2747
+    },
+    "ethereum-classic": {
+        "symbol": "ETC",
+        "1h": 1.11,
+        "24h": 2.58,
+        "7d": 18.22,
+>>>>>>> Stashed changes
         "volume_std": 101990566.94857897,
         "volume_mean": 515950412.5365864,
         "last_24hour_volume": 1166195975.4437456,
@@ -253,6 +557,12 @@
     },
     "binance-usd": {
         "symbol": "BUSD",
+<<<<<<< Updated upstream
+=======
+        "1h": -0.39,
+        "24h": -0.35,
+        "7d": -0.38,
+>>>>>>> Stashed changes
         "volume_std": 146732125.75987995,
         "volume_mean": 290114276.00591,
         "last_24hour_volume": 995155220.5989285,
@@ -260,6 +570,7 @@
     },
     "zcash": {
         "symbol": "ZEC",
+<<<<<<< Updated upstream
         "volume_std": 1650982879.4867177,
         "volume_mean": 630213331.0768225,
         "last_24hour_volume": 558740798.6591774,
@@ -267,6 +578,21 @@
     },
     "havven": {
         "symbol": "SNX",
+=======
+        "1h": -0.75,
+        "24h": -5.74,
+        "7d": 5.78,
+        "volume_std": 1651365080.4418187,
+        "volume_mean": 630200735.4568814,
+        "last_24hour_volume": 556476613.5044956,
+        "upper_std": -0.0446
+    },
+    "havven": {
+        "symbol": "SNX",
+        "1h": -0.13,
+        "24h": -5.82,
+        "7d": 0.66,
+>>>>>>> Stashed changes
         "volume_std": 31165471.622894563,
         "volume_mean": 62147095.85927366,
         "last_24hour_volume": 102091704.2411533,
@@ -274,6 +600,12 @@
     },
     "theta-token": {
         "symbol": "THETA",
+<<<<<<< Updated upstream
+=======
+        "1h": 0.35,
+        "24h": -3.73,
+        "7d": -3.45,
+>>>>>>> Stashed changes
         "volume_std": 27595281.646761745,
         "volume_mean": 44997219.08896692,
         "last_24hour_volume": 17801639.666856326,
@@ -281,6 +613,7 @@
     },
     "compound-ether": {
         "symbol": "CETH",
+<<<<<<< Updated upstream
         "volume_std": 6569919.071370007,
         "volume_mean": 6265145.967856956,
         "last_24hour_volume": 16093785.473764125,
@@ -302,6 +635,41 @@
     },
     "omisego": {
         "symbol": "OMG",
+=======
+        "1h": -0.2,
+        "24h": -2.21,
+        "7d": 5.01,
+        "volume_std": 6570483.122442644,
+        "volume_mean": 6267578.261632618,
+        "last_24hour_volume": 16198270.218988828,
+        "upper_std": 1.5114
+    },
+    "waves": {
+        "symbol": "WAVES",
+        "1h": 1.13,
+        "24h": 6.78,
+        "7d": 35.43,
+        "volume_std": 24220734.128370907,
+        "volume_mean": 57266757.532787055,
+        "last_24hour_volume": 78975505.1881448,
+        "upper_std": 0.8963
+    },
+    "maker": {
+        "symbol": "MKR",
+        "1h": -0.38,
+        "24h": -3.02,
+        "7d": -7.56,
+        "volume_std": 12349985.997752903,
+        "volume_mean": 40243507.606831156,
+        "last_24hour_volume": 44293345.1413263,
+        "upper_std": 0.3279
+    },
+    "omisego": {
+        "symbol": "OMG",
+        "1h": -0.65,
+        "24h": -6.0,
+        "7d": 1.33,
+>>>>>>> Stashed changes
         "volume_std": 526036898.62672913,
         "volume_mean": 396554842.03214353,
         "last_24hour_volume": 246964098.89929497,
@@ -309,6 +677,7 @@
     },
     "compound-governance-token": {
         "symbol": "COMP",
+<<<<<<< Updated upstream
         "volume_std": 40573096.06708763,
         "volume_mean": 58214283.45641492,
         "last_24hour_volume": 57037725.72283129,
@@ -316,6 +685,21 @@
     },
     "uma": {
         "symbol": "UMA",
+=======
+        "1h": 0.95,
+        "24h": -7.19,
+        "7d": 9.83,
+        "volume_std": 40573038.04429281,
+        "volume_mean": 58211908.34530479,
+        "last_24hour_volume": 55608377.97287832,
+        "upper_std": -0.0642
+    },
+    "uma": {
+        "symbol": "UMA",
+        "1h": -0.86,
+        "24h": -4.77,
+        "7d": 2.06,
+>>>>>>> Stashed changes
         "volume_std": 22132068.96290448,
         "volume_mean": 24304685.824823752,
         "last_24hour_volume": 17449255.911538538,
@@ -323,6 +707,7 @@
     },
     "paxos-standard": {
         "symbol": "PAX",
+<<<<<<< Updated upstream
         "volume_std": 31242074.9541041,
         "volume_mean": 125306009.86093265,
         "last_24hour_volume": 96418811.71713367,
@@ -337,6 +722,31 @@
     },
     "dogecoin": {
         "symbol": "DOGE",
+=======
+        "1h": -0.27,
+        "24h": -0.3,
+        "7d": -1.11,
+        "volume_std": 31247253.446205474,
+        "volume_mean": 125285310.41174898,
+        "last_24hour_volume": 94603565.92988454,
+        "upper_std": -0.9819
+    },
+    "ontology": {
+        "symbol": "ONT",
+        "1h": -0.5,
+        "24h": -6.62,
+        "7d": 0.34,
+        "volume_std": 96037674.63741437,
+        "volume_mean": 176281068.33956885,
+        "last_24hour_volume": 127678657.07067275,
+        "upper_std": -0.5061
+    },
+    "dogecoin": {
+        "symbol": "DOGE",
+        "1h": -0.11,
+        "24h": -0.36,
+        "7d": 5.33,
+>>>>>>> Stashed changes
         "volume_std": 43005944.23737275,
         "volume_mean": 110316314.61300932,
         "last_24hour_volume": 67537488.88035572,
@@ -344,6 +754,7 @@
     },
     "ftx-token": {
         "symbol": "FTT",
+<<<<<<< Updated upstream
         "volume_std": 5716475.855247455,
         "volume_mean": 6653699.822070749,
         "last_24hour_volume": 8804472.60932091,
@@ -358,6 +769,31 @@
     },
     "aave-link": {
         "symbol": "ALINK",
+=======
+        "1h": -0.75,
+        "24h": -2.37,
+        "7d": 3.5,
+        "volume_std": 5716393.44234058,
+        "volume_mean": 6655869.8447595015,
+        "last_24hour_volume": 8622923.79739729,
+        "upper_std": 0.3441
+    },
+    "compound-usd-coin": {
+        "symbol": "CUSDC",
+        "1h": -0.14,
+        "24h": -0.05,
+        "7d": 0.04,
+        "volume_std": 7908309.809387216,
+        "volume_mean": 7007155.828879262,
+        "last_24hour_volume": 3099997.934680282,
+        "upper_std": -0.4941
+    },
+    "aave-link": {
+        "symbol": "ALINK",
+        "1h": null,
+        "24h": 1.5393418526327294,
+        "7d": 1.8853794539029207,
+>>>>>>> Stashed changes
         "volume_std": 6280700.289012969,
         "volume_mean": 9063931.135190232,
         "last_24hour_volume": 6106437.61533877,
@@ -365,6 +801,7 @@
     },
     "kusama": {
         "symbol": "KSM",
+<<<<<<< Updated upstream
         "volume_std": 30488700.91956079,
         "volume_mean": 43078793.06468225,
         "last_24hour_volume": 30623506.700353004,
@@ -372,6 +809,21 @@
     },
     "renbtc": {
         "symbol": "RENBTC",
+=======
+        "1h": -0.1,
+        "24h": -6.7,
+        "7d": -0.11,
+        "volume_std": 30488700.91956079,
+        "volume_mean": 43078793.06468225,
+        "last_24hour_volume": 30438190.720265485,
+        "upper_std": -0.4146
+    },
+    "renbtc": {
+        "symbol": "RENBTC",
+        "1h": -0.64,
+        "24h": 0.43,
+        "7d": 16.34,
+>>>>>>> Stashed changes
         "volume_std": 9879243.266955586,
         "volume_mean": 11610471.038369419,
         "last_24hour_volume": 15551263.282332532,
@@ -379,6 +831,12 @@
     },
     "basic-attention-token": {
         "symbol": "BAT",
+<<<<<<< Updated upstream
+=======
+        "1h": -0.36,
+        "24h": -2.94,
+        "7d": -2.11,
+>>>>>>> Stashed changes
         "volume_std": 100235662.29232049,
         "volume_mean": 165324365.95495418,
         "last_24hour_volume": 85055406.89258035,
@@ -386,6 +844,12 @@
     },
     "digibyte": {
         "symbol": "DGB",
+<<<<<<< Updated upstream
+=======
+        "1h": -1.12,
+        "24h": 7.04,
+        "7d": 2.13,
+>>>>>>> Stashed changes
         "volume_std": 10269838.087106006,
         "volume_mean": 11885790.201595863,
         "last_24hour_volume": 15360153.968407622,
@@ -393,6 +857,7 @@
     },
     "republic-protocol": {
         "symbol": "REN",
+<<<<<<< Updated upstream
         "volume_std": 35584052.15298987,
         "volume_mean": 64831718.476507455,
         "last_24hour_volume": 42693916.258965716,
@@ -463,17 +928,122 @@
     },
     "algorand": {
         "symbol": "ALGO",
+=======
+        "1h": -0.08,
+        "24h": -4.52,
+        "7d": -7.1,
+        "volume_std": 35584732.95380339,
+        "volume_mean": 64812066.082168005,
+        "last_24hour_volume": 42070905.21037671,
+        "upper_std": -0.6391
+    },
+    "true-usd": {
+        "symbol": "TUSD",
+        "1h": -0.14,
+        "24h": -0.26,
+        "7d": -0.2,
+        "volume_std": 22250854.06276332,
+        "volume_mean": 82693353.53052408,
+        "last_24hour_volume": 106096624.04272845,
+        "upper_std": 1.0518
+    },
+    "0x": {
+        "symbol": "ZRX",
+        "1h": -0.05,
+        "24h": -4.31,
+        "7d": -6.59,
+        "volume_std": 106134931.33952296,
+        "volume_mean": 71343285.41465211,
+        "last_24hour_volume": 39261011.78062057,
+        "upper_std": -0.3023
+    },
+    "husd": {
+        "symbol": "HUSD",
+        "1h": 0.23,
+        "24h": 0.22,
+        "7d": 0.09,
+        "volume_std": 19230239.28292441,
+        "volume_mean": 40058379.224919565,
+        "last_24hour_volume": 67896433.9689781,
+        "upper_std": 1.4476
+    },
+    "decred": {
+        "symbol": "DCR",
+        "1h": 0.63,
+        "24h": 13.83,
+        "7d": 33.97,
+        "volume_std": 3745480.5117997285,
+        "volume_mean": 6339494.538503217,
+        "last_24hour_volume": 11151622.026035858,
+        "upper_std": 1.2848
+    },
+    "zilliqa": {
+        "symbol": "ZIL",
+        "1h": 0.11,
+        "24h": -4.94,
+        "7d": 5.89,
+        "volume_std": 20314016.10055206,
+        "volume_mean": 33972771.31291316,
+        "last_24hour_volume": 32549270.110664967,
+        "upper_std": -0.0701
+    },
+    "energy-web-token": {
+        "symbol": "EWT",
+        "1h": -1.0,
+        "24h": -0.53,
+        "7d": -9.81,
+        "volume_std": 755049.1244654019,
+        "volume_mean": 1227953.1252585812,
+        "last_24hour_volume": 1613161.6799984283,
+        "upper_std": 0.5102
+    },
+    "qtum": {
+        "symbol": "QTUM",
+        "1h": -0.26,
+        "24h": -2.95,
+        "7d": 5.75,
+        "volume_std": 182309992.5295554,
+        "volume_mean": 247942657.82393828,
+        "last_24hour_volume": 151857458.06717494,
+        "upper_std": -0.527
+    },
+    "algorand": {
+        "symbol": "ALGO",
+        "1h": -0.44,
+        "24h": -4.17,
+        "7d": -8.67,
+>>>>>>> Stashed changes
         "volume_std": 77960490.82103756,
         "volume_mean": 141030349.10240635,
         "last_24hour_volume": 89314127.05110429,
         "upper_std": -0.6634
+<<<<<<< Updated upstream
     },
     "aave-eth": {
         "symbol": "AETH",
+=======
+    },
+    "blockstack": {
+        "symbol": "STX",
+        "1h": -0.02,
+        "24h": -0.83,
+        "7d": 6.43,
+        "volume_std": 1639851.3904349655,
+        "volume_mean": 1790577.417124461,
+        "last_24hour_volume": 3329247.640694705,
+        "upper_std": 0.9383
+    },
+    "aave-eth": {
+        "symbol": "AETH",
+        "1h": null,
+        "24h": null,
+        "7d": 0.0,
+>>>>>>> Stashed changes
         "volume_std": 15517280.53583441,
         "volume_mean": 21632589.180000085,
         "last_24hour_volume": 0.0,
         "upper_std": -1.3941
+<<<<<<< Updated upstream
     },
     "loopring": {
         "symbol": "LRC",
@@ -568,6 +1138,154 @@
     },
     "aave-usdc": {
         "symbol": "AUSDC",
+=======
+    },
+    "loopring": {
+        "symbol": "LRC",
+        "1h": -0.15,
+        "24h": -5.58,
+        "7d": -17.46,
+        "volume_std": 22715702.986334506,
+        "volume_mean": 67355465.46466522,
+        "last_24hour_volume": 33436919.10767037,
+        "upper_std": -1.4932
+    },
+    "vitae": {
+        "symbol": "VITAE",
+        "1h": -2.85,
+        "24h": -12.59,
+        "7d": 29.07,
+        "volume_std": 256977.45039278542,
+        "volume_mean": 1220824.9569385864,
+        "last_24hour_volume": 1270840.688258506,
+        "upper_std": 0.1946
+    },
+    "bittorrent-2": {
+        "symbol": "BTT",
+        "1h": -0.06,
+        "24h": -1.24,
+        "7d": 1.61,
+        "volume_std": 52415550.25457444,
+        "volume_mean": 88942556.32370947,
+        "last_24hour_volume": 78035251.71594827,
+        "upper_std": -0.2081
+    },
+    "icon": {
+        "symbol": "ICX",
+        "1h": -0.01,
+        "24h": -5.05,
+        "7d": -2.28,
+        "volume_std": 36606022.61028757,
+        "volume_mean": 32510729.654652018,
+        "last_24hour_volume": 13029195.392874721,
+        "upper_std": -0.5322
+    },
+    "ocean-protocol": {
+        "symbol": "OCEAN",
+        "1h": 0.06,
+        "24h": -0.51,
+        "7d": -4.27,
+        "volume_std": 8719473.055060597,
+        "volume_mean": 17452662.00849693,
+        "last_24hour_volume": 27186832.574745953,
+        "upper_std": 1.1164
+    },
+    "reserve-rights-token": {
+        "symbol": "RSR",
+        "1h": -1.41,
+        "24h": 4.55,
+        "7d": 15.41,
+        "volume_std": 22279723.401500568,
+        "volume_mean": 47732262.13905287,
+        "last_24hour_volume": 127429503.31787694,
+        "upper_std": 3.5771
+    },
+    "nxm": {
+        "symbol": "NXM",
+        "1h": -0.27,
+        "24h": -7.89,
+        "7d": 13.14,
+        "volume_std": 4546070.020804951,
+        "volume_mean": 3165101.9999925354,
+        "last_24hour_volume": 1754179.8679937916,
+        "upper_std": -0.3104
+    },
+    "quant-network": {
+        "symbol": "QNT",
+        "1h": 0.57,
+        "24h": -7.13,
+        "7d": 5.61,
+        "volume_std": 1846624.6299013537,
+        "volume_mean": 3991063.965100926,
+        "last_24hour_volume": 5157252.162877585,
+        "upper_std": 0.6315
+    },
+    "hedera-hashgraph": {
+        "symbol": "HBAR",
+        "1h": -0.54,
+        "24h": -0.83,
+        "7d": -3.58,
+        "volume_std": 3631232.224552692,
+        "volume_mean": 4766391.131420866,
+        "last_24hour_volume": 6787920.360016037,
+        "upper_std": 0.5567
+    },
+    "thorchain": {
+        "symbol": "RUNE",
+        "1h": 0.84,
+        "24h": -11.38,
+        "7d": 22.37,
+        "volume_std": 7517027.702966488,
+        "volume_mean": 7904877.62114011,
+        "last_24hour_volume": 48190276.81103362,
+        "upper_std": 5.3592
+    },
+    "kyber-network": {
+        "symbol": "KNC",
+        "1h": 0.02,
+        "24h": -4.5,
+        "7d": 2.95,
+        "volume_std": 25535372.81507548,
+        "volume_mean": 43715201.19612812,
+        "last_24hour_volume": 32851334.657051496,
+        "upper_std": -0.4254
+    },
+    "bitcoin-gold": {
+        "symbol": "BTG",
+        "1h": -1.57,
+        "24h": 19.71,
+        "7d": 29.24,
+        "volume_std": 6280749.477196613,
+        "volume_mean": 7828846.377617487,
+        "last_24hour_volume": 41077589.21994713,
+        "upper_std": 5.2938
+    },
+    "lisk": {
+        "symbol": "LSK",
+        "1h": -0.3,
+        "24h": -0.08,
+        "7d": 0.67,
+        "volume_std": 5000296.275999761,
+        "volume_mean": 4820741.163725966,
+        "last_24hour_volume": 5350927.8285194915,
+        "upper_std": 0.106
+    },
+    "ampleforth": {
+        "symbol": "AMPL",
+        "1h": 1.17,
+        "24h": -8.22,
+        "7d": -23.3,
+        "volume_std": 19481996.23478234,
+        "volume_mean": 14021745.06789806,
+        "last_24hour_volume": 2784991.4725530683,
+        "upper_std": -0.5768
+    },
+    "aave-usdc": {
+        "symbol": "AUSDC",
+        "1h": null,
+        "24h": 0.3675037010134438,
+        "7d": 0.3479062367217504,
+>>>>>>> Stashed changes
         "volume_std": 22451917.928413223,
         "volume_mean": 24590119.273858715,
         "last_24hour_volume": 48312111.47961961,
@@ -575,6 +1293,7 @@
     },
     "terra-luna": {
         "symbol": "LUNA",
+<<<<<<< Updated upstream
         "volume_std": 4787041.739045144,
         "volume_mean": 6330582.812064451,
         "last_24hour_volume": 8681386.267914193,
@@ -603,6 +1322,41 @@
     },
     "empty-set-dollar": {
         "symbol": "ESD",
+=======
+        "1h": -0.17,
+        "24h": 0.61,
+        "7d": 1.29,
+        "volume_std": 4783118.2733430145,
+        "volume_mean": 6327377.95549508,
+        "last_24hour_volume": 8738222.004217831,
+        "upper_std": 0.504
+    },
+    "sushi": {
+        "symbol": "SUSHI",
+        "1h": -0.34,
+        "24h": -15.79,
+        "7d": 65.44,
+        "volume_std": 188962424.5694976,
+        "volume_mean": 150192678.3588247,
+        "last_24hour_volume": 104512753.04123543,
+        "upper_std": -0.2417
+    },
+    "band-protocol": {
+        "symbol": "BAND",
+        "1h": 0.31,
+        "24h": -1.11,
+        "7d": -7.83,
+        "volume_std": 49385475.316650815,
+        "volume_mean": 101602650.87919219,
+        "last_24hour_volume": 143564220.66845304,
+        "upper_std": 0.8497
+    },
+    "empty-set-dollar": {
+        "symbol": "ESD",
+        "1h": 1.49,
+        "24h": -12.88,
+        "7d": 4.24,
+>>>>>>> Stashed changes
         "volume_std": 2598582.51725154,
         "volume_mean": 1710023.9460343225,
         "last_24hour_volume": 2797895.3604518776,
@@ -610,6 +1364,7 @@
     },
     "balancer": {
         "symbol": "BAL",
+<<<<<<< Updated upstream
         "volume_std": 25959784.85618116,
         "volume_mean": 49507914.474842474,
         "last_24hour_volume": 40344133.67259503,
@@ -624,6 +1379,41 @@
     },
     "numeraire": {
         "symbol": "NMR",
+=======
+        "1h": -0.82,
+        "24h": -6.58,
+        "7d": 9.21,
+        "volume_std": 25955936.971293636,
+        "volume_mean": 49514184.26021634,
+        "last_24hour_volume": 40500604.88316914,
+        "upper_std": -0.3473
+    },
+    "nexo": {
+        "symbol": "NEXO",
+        "1h": -0.31,
+        "24h": 0.17,
+        "7d": 26.79,
+        "volume_std": 1463333.0781401207,
+        "volume_mean": 4909941.865386973,
+        "last_24hour_volume": 6406979.332272885,
+        "upper_std": 1.023
+    },
+    "enjincoin": {
+        "symbol": "ENJ",
+        "1h": 0.16,
+        "24h": -6.31,
+        "7d": -2.5,
+        "volume_std": 6225553.568213862,
+        "volume_mean": 9338683.393922979,
+        "last_24hour_volume": 9247788.112134233,
+        "upper_std": -0.0146
+    },
+    "numeraire": {
+        "symbol": "NMR",
+        "1h": -0.92,
+        "24h": -2.95,
+        "7d": -0.41,
+>>>>>>> Stashed changes
         "volume_std": 8409485.855397388,
         "volume_mean": 7281144.624476338,
         "last_24hour_volume": 3444925.857608135,
@@ -631,6 +1421,12 @@
     },
     "siacoin": {
         "symbol": "SC",
+<<<<<<< Updated upstream
+=======
+        "1h": -1.01,
+        "24h": -2.84,
+        "7d": -0.82,
+>>>>>>> Stashed changes
         "volume_std": 7753680.569639578,
         "volume_mean": 5508105.7853417145,
         "last_24hour_volume": 2894175.214902785,
@@ -638,6 +1434,7 @@
     },
     "arweave": {
         "symbol": "AR",
+<<<<<<< Updated upstream
         "volume_std": 4304816.780204986,
         "volume_mean": 5970585.209495688,
         "last_24hour_volume": 4148238.418621028,
@@ -652,11 +1449,27 @@
     },
     "terra-krw": {
         "symbol": "KRT",
+=======
+        "1h": 0.27,
+        "24h": -2.83,
+        "7d": 8.59,
+        "volume_std": 4304153.368046542,
+        "volume_mean": 5971572.789135804,
+        "last_24hour_volume": 4119251.086144435,
+        "upper_std": -0.4304
+    },
+    "terra-krw": {
+        "symbol": "KRT",
+        "1h": -0.99,
+        "24h": -1.64,
+        "7d": -1.7,
+>>>>>>> Stashed changes
         "volume_std": 81193.17532361585,
         "volume_mean": 70267.19782640721,
         "last_24hour_volume": 285573.8715840056,
         "upper_std": 2.6518
     },
+<<<<<<< Updated upstream
     "bitcoin-diamond": {
         "symbol": "BCD",
         "volume_std": 2988986.6164223207,
@@ -666,6 +1479,23 @@
     },
     "elrond-erd-2": {
         "symbol": "EGLD",
+=======
+    "aragon": {
+        "symbol": "ANT",
+        "1h": -1.4,
+        "24h": -7.64,
+        "7d": -3.34,
+        "volume_std": 30678149.057553954,
+        "volume_mean": 33337800.769948386,
+        "last_24hour_volume": 27545276.976035275,
+        "upper_std": -0.1888
+    },
+    "elrond-erd-2": {
+        "symbol": "EGLD",
+        "1h": 0.11,
+        "24h": -5.09,
+        "7d": -13.45,
+>>>>>>> Stashed changes
         "volume_std": 5233618.643142117,
         "volume_mean": 7130436.362326523,
         "last_24hour_volume": 6310393.926166763,
@@ -673,13 +1503,38 @@
     },
     "huobi-btc": {
         "symbol": "HBTC",
+<<<<<<< Updated upstream
+=======
+        "1h": -0.48,
+        "24h": 1.82,
+        "7d": 59.35,
+>>>>>>> Stashed changes
         "volume_std": 25296.847572016803,
         "volume_mean": 22103.838370576992,
         "last_24hour_volume": 46623.89931204871,
         "upper_std": 0.9693
+<<<<<<< Updated upstream
     },
     "status": {
         "symbol": "SNT",
+=======
+    },
+    "bitcoin-diamond": {
+        "symbol": "BCD",
+        "1h": -2.48,
+        "24h": 15.81,
+        "7d": 25.27,
+        "volume_std": 2988986.6164223207,
+        "volume_mean": 2946712.4488856634,
+        "last_24hour_volume": 9970800.7567893,
+        "upper_std": 2.35
+    },
+    "status": {
+        "symbol": "SNT",
+        "1h": -0.83,
+        "24h": 2.57,
+        "7d": 0.23,
+>>>>>>> Stashed changes
         "volume_std": 21613609.57167946,
         "volume_mean": 15581636.21435734,
         "last_24hour_volume": 18273769.982329372,
@@ -687,6 +1542,7 @@
     },
     "swissborg": {
         "symbol": "CHSB",
+<<<<<<< Updated upstream
         "volume_std": 317633.4754424594,
         "volume_mean": 534447.0687471649,
         "last_24hour_volume": 814987.8433282325,
@@ -694,10 +1550,29 @@
     },
     "golem": {
         "symbol": "GNT",
+=======
+        "1h": 0.02,
+        "24h": -1.79,
+        "7d": 16.4,
+        "volume_std": 317612.7592305804,
+        "volume_mean": 534421.6692052821,
+        "last_24hour_volume": 765080.6957740606,
+        "upper_std": 0.7262
+    },
+    "golem": {
+        "symbol": "GNT",
+        "1h": 1.44,
+        "24h": -1.48,
+        "7d": -8.64,
+>>>>>>> Stashed changes
         "volume_std": 11430609.994869126,
         "volume_mean": 10180721.452682102,
         "last_24hour_volume": 6032771.697137026,
         "upper_std": -0.3629
     },
+<<<<<<< Updated upstream
     "time": "Nov 18 2020 19:11:17"
+=======
+    "time": "Nov 18 2020 14:33:58"
+>>>>>>> Stashed changes
 }

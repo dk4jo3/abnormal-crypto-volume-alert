@@ -20,8 +20,8 @@ dataDict = {} #main dict for JSON export
 
 
 end_point = 'https://api.coingecko.com/api/v3/coins/'
-volume_end_point = end_point + '{}/market_chart?vs_currency={}&days={}' # .format inside the later for loop since i is the coin_id
-coin_list_end_point = end_point + ('/markets?vs_currency=usd&order=market_cap_desc&per_page={}&page=1&sparkline=false').format(list_cap)
+volume_end_point = end_point + '{}/market_chart?vs_currency={}&days={}' # .format inside later for loop since i is the coin_id
+coin_list_end_point = end_point + ('/markets?vs_currency=usd&order=market_cap_desc&per_page={}&page=1&sparkline=false&price_change_percentage=1h%2C24h%2C7d').format(list_cap)
 
 def get_data(url):
 	api_response = requests.get(url)
@@ -50,6 +50,17 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 	for i in api_data:
 		coin_list[i['id']] = {}  #i[id] is the coin id 
 		coin_list[i['id']]['symbol'] = (i['symbol']).upper() 
+		coin_list[i['id']]['1h'] = i['price_change_percentage_1h_in_currency']
+		coin_list[i['id']]['24h'] = i['price_change_percentage_24h_in_currency']
+		coin_list[i['id']]['7d'] = i['price_change_percentage_7d_in_currency']
+
+		if coin_list[i['id']]['1h'] and coin_list[i['id']]['24h'] and coin_list[i['id']]['7d'] is not None:
+			
+			coin_list[i['id']]['1h'] = round((coin_list[i['id']]['1h']), 2)
+			coin_list[i['id']]['24h'] = round((coin_list[i['id']]['24h']), 2)
+			coin_list[i['id']]['7d'] = round((coin_list[i['id']]['7d']), 2)
+			
+
 	return coin_list
 
 def get_std(i):
@@ -77,14 +88,14 @@ for i in coin_list:
 	get_std(i)
 
 	#check is std or mean is NaN, 
-	if np.isnan(coin_list[i]['volume_std']) == False or np.isnan(coin_list[i]['volume_mean']) == False:
+	if np.isnan(coin_list[i]['volume_std']) or np.isnan(coin_list[i]['volume_mean']) == False:
 		dataDict[i] = coin_list[i]
 		print (i, coin_list[i])
 	else: 
 		pass
 
 	# api limit @ 100 fetch per minute
-	time.sleep(0.7)
+	time.sleep(1.0)
 
 print (dataDict)
 
