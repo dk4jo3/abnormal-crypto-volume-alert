@@ -25,9 +25,9 @@ async function getData(std_cap) {
                         <hr>
                         <h5>${dataObj[key].upper_std}</h5>
                         <p>
-                        <span ${object[key].hour >= 0 ? `class="red"` : `class="green"`}>1H : ${object[key].hour >= 0 ? `+` : ``}${dataObj[key].hour} % </span><br>
-                        <span ${object[key].day >= 0 ? `class="red"` : `class="green"`}>1D : ${object[key].day >= 0 ? `+` : ``}${dataObj[key].day} % </span><br>
-                        <span ${object[key].week >= 0 ? `class="red"` : `class="green"`}>1W : ${object[key].week >= 0 ? `+` : ``}${dataObj[key].week} % </span>
+                        <span>1H : ${object[key].hour >= 0 ? `+` : ``}${dataObj[key].hour} % </span><br>
+                        <span>1D : ${object[key].day >= 0 ? `+` : ``}${dataObj[key].day} % </span><br>
+                        <span>1W : ${object[key].week >= 0 ? `+` : ``}${dataObj[key].week} % </span>
                         </p>
                     </div>
                 </div></a>`
