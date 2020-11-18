@@ -13,6 +13,7 @@ async function getData(std_cap) {
     //    upper_std: -0.9745
     //    volume_mean: 25002672636.009663
     //    volume_std: 8589051940.060508
+    //    1h: 0.23
 
 
     // .map the keys to get html content and generate html content
