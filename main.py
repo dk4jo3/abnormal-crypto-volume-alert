@@ -56,10 +56,15 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 
 		if coin_list[i['id']]['1h'] and coin_list[i['id']]['24h'] and coin_list[i['id']]['7d'] is not None:
 			
-			coin_list[i['id']]['1h'] = round((coin_list[i['id']]['1h']), 2)
-			coin_list[i['id']]['24h'] = round((coin_list[i['id']]['24h']), 2)
-			coin_list[i['id']]['7d'] = round((coin_list[i['id']]['7d']), 2)
+			# round, then format all to 2 decibel points
+			coin_list[i['id']]['1h'] = format((round((coin_list[i['id']]['1h']), 2)), '.2f')
+			coin_list[i['id']]['24h'] = format((round((coin_list[i['id']]['24h']), 2)), '.2f')
+			coin_list[i['id']]['7d'] = format((round((coin_list[i['id']]['7d']), 2)), '.2f')
+		else: 
+
+			coin_list[i['id']]['1h'], coin_list[i['id']]['24h'], coin_list[i['id']]['7d'] = 'NA', 'NA', 'NA'
 			
+		# if i in i['id'] is 
 
 	return coin_list
 
@@ -89,6 +94,8 @@ for i in coin_list:
 
 	#check is std or mean is NaN, 
 	if np.isnan(coin_list[i]['volume_std']) or np.isnan(coin_list[i]['volume_mean']) == False:
+
+		# don't edit dict while looping so add to a new dict
 		dataDict[i] = coin_list[i]
 		print (i, coin_list[i])
 	else: 
@@ -96,8 +103,6 @@ for i in coin_list:
 
 	# api limit @ 100 fetch per minute
 	time.sleep(1.0)
-
-print (dataDict)
 
 # save time to dict 
 now = datetime.now()
