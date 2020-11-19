@@ -57,7 +57,7 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 		if coin_list[i['id']]['hour'] and coin_list[i['id']]['day'] and coin_list[i['id']]['week'] is not None:
 			
 			# round, then format all to 2 decibel points
-			coin_list[i['id']]['hour'] = round((coin_list[i['id']]['day']), 2)
+			coin_list[i['id']]['hour'] = round((coin_list[i['id']]['hour']), 2)
 			coin_list[i['id']]['day'] = round((coin_list[i['id']]['day']), 2)
 			coin_list[i['id']]['week'] = (round((coin_list[i['id']]['week']), 2))
 		else: 
