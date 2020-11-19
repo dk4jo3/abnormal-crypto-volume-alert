@@ -102,7 +102,7 @@ for i in coin_list:
 		pass
 
 	# api limit @ 100 fetch per minute
-	time.sleep(1.0)
+	time.sleep(0.61)
 
 # save time to dict 
 now = datetime.now()
