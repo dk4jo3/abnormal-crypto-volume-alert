@@ -41,5 +41,5 @@ jobs:
           git config --global user.name 'dk4jo3'
           git config --global user.email 'dk4jo3@users.noreply.github.com'
           git commit -am "Update data"
-          git pull
-          git push
+          git pull origin master
+          git push origin master
