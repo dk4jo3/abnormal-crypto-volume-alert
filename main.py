@@ -25,6 +25,12 @@ coin_list_end_point = end_point + ('/markets?vs_currency=usd&order=market_cap_de
 
 def get_data(url):
 	api_response = requests.get(url)
+
+	try: 
+		api_response.raise_for_status() 
+	except requests.exceptions.HTTPError as e: # Whoops it wasn't a 200 
+		return "Error: " + str(e)
+
 	return api_response.json()
 
 def export_JSON(directory, dict_name):
@@ -47,6 +53,7 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 	api_response = requests.get(coin_list_end_point)
 	api_data = api_response.json()
 
+
 	for i in api_data:
 		coin_list[i['id']] = {}  #i[id] is the coin id 
 		coin_list[i['id']]['symbol'] = (i['symbol']).upper() 
@@ -54,15 +61,22 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 		coin_list[i['id']]['day'] = i['price_change_percentage_24h_in_currency']
 		coin_list[i['id']]['week'] = i['price_change_percentage_7d_in_currency']
 
-		if coin_list[i['id']]['hour'] and coin_list[i['id']]['day'] and coin_list[i['id']]['week'] is not None:
-			
-			# round, then format all to 2 decibel points
-			coin_list[i['id']]['hour'] = round((coin_list[i['id']]['hour']), 2)
-			coin_list[i['id']]['day'] = round((coin_list[i['id']]['day']), 2)
-			coin_list[i['id']]['week'] = (round((coin_list[i['id']]['week']), 2))
-		else: 
+		time_list = ['hour', 'day', 'week']
+		for n in time_list: 
+			if coin_list[i['id']][n] is not None:
+				coin_list[i['id']][n] = round((coin_list[i['id']][n]), 2)
+			else:
+				coin_list[i['id']][n] = 'NA'
 
-			coin_list[i['id']]['1h'], coin_list[i['id']]['24h'], coin_list[i['id']]['7d'] = 'NA', 'NA', 'NA'
+
+		# if coin_list[i['id']]['hour'] and coin_list[i['id']]['day'] and coin_list[i['id']]['week'] is not None:
+			
+		# 	# round, then format all to 2 decibel points
+		# 	coin_list[i['id']]['hour'] = round((coin_list[i['id']]['hour']), 2)
+		# 	coin_list[i['id']]['day'] = round((coin_list[i['id']]['day']), 2)
+		# 	coin_list[i['id']]['week'] = (round((coin_list[i['id']]['week']), 2))
+		# else: 
+		# 	coin_list[i['id']]['1h'], coin_list[i['id']]['24h'], coin_list[i['id']]['7d'] = 'NA', 'NA', 'NA'
 			
 		# if i in i['id'] is 
 
@@ -102,7 +116,7 @@ for i in coin_list:
 		pass
 
 	# api limit @ 100 fetch per minute
-	time.sleep(1.0)
+	# time.sleep(1.0)
 
 # save time to dict 
 now = datetime.now()
