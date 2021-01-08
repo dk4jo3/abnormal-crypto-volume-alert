@@ -12,7 +12,6 @@ day_cutoff = 90
 # Hourly data will be used for duration between 1 day to 90 days, 
 # Daily data will be used for duration above 90 days.
 
-std_cutoff = 3
 against_currency = "usd"
 coin_list = {}
 outlier_list = {}
@@ -35,17 +34,16 @@ def get_data(url):
 
 def export_JSON(directory, dict_name):
 	filename = directory
-	with open(filename, 'r') as f:
-	    data = json.load(f)
 
-	    # overwrite existing obj in json
-	    print (data)
-	    data = dict_name
+	# with open(filename, 'r') as f:
+	#     data = json.load(f)
 
+	#     # overwrite existing obj in json
+	#     print (data)
 	os.remove(filename)
 	with open(filename, 'w') as f:
 	    # sort key = False to remain the key order
-	    json.dump(data, f, indent=4, sort_keys=False)
+	    json.dump(dict_name, f, indent=4, sort_keys=False)
 
 def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 
