@@ -33,15 +33,9 @@ def get_data(url):
 	return api_response.json()
 
 def export_JSON(directory, dict_name):
-	filename = directory
+	os.remove(directory)
+	with open(directory, 'w') as f:
 
-	# with open(filename, 'r') as f:
-	#     data = json.load(f)
-
-	#     # overwrite existing obj in json
-	#     print (data)
-	os.remove(filename)
-	with open(filename, 'w') as f:
 	    # sort key = False to remain the key order
 	    json.dump(dict_name, f, indent=4, sort_keys=False)
 
