@@ -49,6 +49,8 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 	for i in api_data:
 		coin_list[i['id']] = {}  #i[id] is the coin id 
 		coin_list[i['id']]['symbol'] = (i['symbol']).upper() 
+
+		# Save the price data
 		coin_list[i['id']]['hour'] = i['price_change_percentage_1h_in_currency']
 		coin_list[i['id']]['day'] = i['price_change_percentage_24h_in_currency']
 		coin_list[i['id']]['week'] = i['price_change_percentage_7d_in_currency']
@@ -60,18 +62,7 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 			else:
 				coin_list[i['id']][n] = 'NA'
 
-
-		# if coin_list[i['id']]['hour'] and coin_list[i['id']]['day'] and coin_list[i['id']]['week'] is not None:
-			
-		# 	# round, then format all to 2 decibel points
-		# 	coin_list[i['id']]['hour'] = round((coin_list[i['id']]['hour']), 2)
-		# 	coin_list[i['id']]['day'] = round((coin_list[i['id']]['day']), 2)
-		# 	coin_list[i['id']]['week'] = (round((coin_list[i['id']]['week']), 2))
-		# else: 
-		# 	coin_list[i['id']]['1h'], coin_list[i['id']]['24h'], coin_list[i['id']]['7d'] = 'NA', 'NA', 'NA'
-			
-		# if i in i['id'] is 
-
+	print (coin_list)
 	return coin_list
 
 def get_std(i):
@@ -82,14 +73,25 @@ def get_std(i):
 	# get raw volumes into the list volume_data
 	volume_data = []
 
-	for n in api_data['total_volumes']:
-		volume_data.append(n[1]) #n[0] is the time code
+	try: 
+		for n in api_data['total_volumes']:
+			volume_data.append(n[1]) #n[0] is the time code
 
-	# the last one is the latest hourly volume, 
-	coin_list[i]['volume_std'] = np.std(volume_data[:-1])
-	coin_list[i]['volume_mean'] = np.mean(volume_data[:-1])
-	coin_list[i]['last_24hour_volume'] = volume_data[-1]
-	coin_list[i]['upper_std'] = round(((coin_list[i]['last_24hour_volume'] - coin_list[i]['volume_mean']) / coin_list[i]['volume_std']), 2)
+		# the last one is the latest hourly volume, 
+		coin_list[i]['volume_std'] = np.std(volume_data[:-1])
+		coin_list[i]['volume_mean'] = np.mean(volume_data[:-1])
+		coin_list[i]['last_24hour_volume'] = volume_data[-1]
+
+		upper_std = round(((coin_list[i]['last_24hour_volume'] - coin_list[i]['volume_mean']) / coin_list[i]['volume_std']), 2)
+
+		if np.isnan(upper_std) == False:
+			coin_list[i]['upper_std'] = upper_std
+		else: 
+			coin_list[i]['upper_std'] = 0
+	except Exception as e: 
+		print (e)
+
+	# coin_list[i]['upper_std'] = round(((coin_list[i]['last_24hour_volume'] - coin_list[i]['volume_mean']) / coin_list[i]['volume_std']), 2)
 
 
 get_coin_list()
