@@ -62,7 +62,7 @@ def get_coin_list(): #get a list of top 100 coin with their id and symbol.
 			else:
 				coin_list[i['id']][n] = 'NA'
 
-	print (coin_list)
+	# print (coin_list)
 	return coin_list
 
 def get_std(i):
@@ -100,14 +100,17 @@ get_coin_list()
 for i in coin_list:
 	get_std(i)
 
-	#check is std or mean is NaN, 
-	if np.isnan(coin_list[i]['volume_std']) or np.isnan(coin_list[i]['volume_mean']) == False:
+	dataDict[i] = coin_list[i]
+	print (i, coin_list[i])
 
-		# don't edit dict while looping so add to a new dict
-		dataDict[i] = coin_list[i]
-		print (i, coin_list[i])
-	else: 
-		pass
+	#check is std or mean is NaN, 
+	# if np.isnan(coin_list[i]['volume_std']) or np.isnan(coin_list[i]['volume_mean']) == False:
+
+	# 	# don't edit dict while looping so add to a new dict
+	# 	dataDict[i] = coin_list[i]
+	# 	print (i, coin_list[i])
+	# else: 
+	# 	pass
 
 	# api limit @ 100 fetch per minute
 	time.sleep(1.0)
