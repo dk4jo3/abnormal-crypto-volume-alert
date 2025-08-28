@@ -1,671 +1,659 @@
 {
     "bitcoin": {
         "symbol": "BTC",
-        "hour": -0.23,
-        "day": 0.04,
-        "week": -0.03,
-        "volume_std": 15468752889.084057,
-        "volume_mean": 36716920397.48017,
-        "last_24hour_volume": 37564989369.41892,
-        "upper_std": 0.05
+        "hour": -0.01,
+        "day": -0.12,
+        "week": -0.05,
+        "volume_std": 15468660005.757212,
+        "volume_mean": 36716129118.93361,
+        "last_24hour_volume": 34974264561.55366,
+        "upper_std": -0.11
     },
     "ethereum": {
         "symbol": "ETH",
-        "hour": -0.48,
+        "hour": 0.41,
         "day": -2.36,
-        "week": 5.5,
-        "volume_std": 14865044665.337355,
-        "volume_mean": 29475874298.582996,
-        "last_24hour_volume": 31944537397.78317,
-        "upper_std": 0.17
+        "week": 5.74,
+        "volume_std": 14866862762.330917,
+        "volume_mean": 29482962136.988464,
+        "last_24hour_volume": 30211157830.26107,
+        "upper_std": 0.05
     },
     "ripple": {
         "symbol": "XRP",
-        "hour": -0.52,
-        "day": -1.36,
-        "week": 1.56,
-        "volume_std": 3409647018.664532,
-        "volume_mean": 5231024796.084616,
-        "last_24hour_volume": 6835307421.158769,
-        "upper_std": 0.47
+        "hour": -0.23,
+        "day": -1.88,
+        "week": 2.95,
+        "volume_std": 3409589908.681843,
+        "volume_mean": 5232680710.652964,
+        "last_24hour_volume": 5738960561.643837,
+        "upper_std": 0.15
     },
     "tether": {
         "symbol": "USDT",
-        "hour": -0.0,
-        "day": -0.01,
-        "week": 0.02,
+        "hour": 0.01,
+        "day": 0.0,
+        "week": 0.04,
         "volume_std": 43892274124.11566,
         "volume_mean": 76613029149.77588,
-        "last_24hour_volume": 84415256489.01704,
-        "upper_std": 0.18
+        "last_24hour_volume": 79185804426.43459,
+        "upper_std": 0.06
     },
     "binancecoin": {
         "symbol": "BNB",
-        "hour": -0.17,
-        "day": 1.01,
-        "week": 4.07,
+        "hour": 0.18,
+        "day": 0.73,
+        "week": 4.26,
         "volume_std": 826877708.1072892,
         "volume_mean": 1305826088.2459161,
-        "last_24hour_volume": 1810262666.825119,
-        "upper_std": 0.61
+        "last_24hour_volume": 1716107950.4128363,
+        "upper_std": 0.5
     },
     "solana": {
         "symbol": "SOL",
-        "hour": -0.52,
-        "day": 3.07,
-        "week": 17.34,
-        "volume_std": 5445157419.511801,
-        "volume_mean": 7426883675.366971,
-        "last_24hour_volume": 13412137684.449633,
-        "upper_std": 1.1
+        "hour": 1.29,
+        "day": 2.68,
+        "week": 18.6
     },
     "usd-coin": {
         "symbol": "USDC",
-        "hour": -0.0,
-        "day": 0.01,
-        "week": 0.0,
-        "volume_std": 5530982320.756993,
-        "volume_mean": 10082900673.22906,
-        "last_24hour_volume": 17229582417.963852,
-        "upper_std": 1.29
+        "hour": 0.0,
+        "day": 0.0,
+        "week": 0.0
     },
     "staked-ether": {
         "symbol": "STETH",
-        "hour": -0.25,
-        "day": -2.38,
-        "week": 5.55,
-        "volume_std": 51147997.13354982,
-        "volume_mean": 57867727.93861008,
-        "last_24hour_volume": 48661001.048525065,
-        "upper_std": -0.18
+        "hour": 0.13,
+        "day": -2.46,
+        "week": 5.73
     },
     "dogecoin": {
         "symbol": "DOGE",
-        "hour": -1.12,
-        "day": 0.31,
-        "week": 1.56
+        "hour": 0.67,
+        "day": -0.46,
+        "week": 3.11
     },
     "tron": {
         "symbol": "TRX",
-        "hour": -0.0,
-        "day": -1.18,
-        "week": -2.76
+        "hour": 0.12,
+        "day": -1.24,
+        "week": -2.64
     },
     "cardano": {
         "symbol": "ADA",
-        "hour": -0.78,
-        "day": -1.68,
-        "week": -0.6
+        "hour": 0.16,
+        "day": -2.05,
+        "week": -0.44
     },
     "wrapped-steth": {
         "symbol": "WSTETH",
-        "hour": -0.77,
-        "day": -2.78,
-        "week": 5.16
+        "hour": 0.28,
+        "day": -2.66,
+        "week": 5.63
     },
     "chainlink": {
         "symbol": "LINK",
-        "hour": -1.77,
-        "day": 2.17,
-        "week": -1.36,
-        "volume_std": 723279377.9522614,
-        "volume_mean": 847684501.2766081,
-        "last_24hour_volume": 2601665888.0065603,
-        "upper_std": 2.43
+        "hour": 0.53,
+        "day": 1.46,
+        "week": -0.91,
+        "volume_std": 724392712.6780928,
+        "volume_mean": 848628425.4614714,
+        "last_24hour_volume": 2574634585.6511593,
+        "upper_std": 2.38
     },
     "wrapped-beacon-eth": {
         "symbol": "WBETH",
-        "hour": -0.31,
-        "day": -1.93,
-        "week": 5.62
+        "hour": 0.36,
+        "day": -2.51,
+        "week": 5.29
     },
     "wrapped-bitcoin": {
         "symbol": "WBTC",
-        "hour": -0.11,
-        "day": 0.04,
-        "week": -0.04
+        "hour": -0.01,
+        "day": -0.09,
+        "week": -0.05
     },
     "hyperliquid": {
         "symbol": "HYPE",
-        "hour": -1.85,
-        "day": -4.98,
-        "week": 13.15
+        "hour": -0.46,
+        "day": -6.54,
+        "week": 12.6
     },
     "ethena-usde": {
         "symbol": "USDE",
         "hour": 0.01,
-        "day": 0.03,
-        "week": 0.04
+        "day": 0.01,
+        "week": 0.05
     },
     "wrapped-eeth": {
         "symbol": "WEETH",
-        "hour": -0.28,
-        "day": -2.13,
-        "week": 5.36
+        "hour": 0.3,
+        "day": -2.74,
+        "week": 5.51,
+        "volume_std": 21319269.510813687,
+        "volume_mean": 22172834.749509424,
+        "last_24hour_volume": 16909680.820239864,
+        "upper_std": -0.25
     },
     "sui": {
         "symbol": "SUI",
-        "hour": -0.72,
-        "day": -0.95,
-        "week": 0.61
+        "hour": 0.48,
+        "day": -1.55,
+        "week": 0.95,
+        "volume_std": 612109985.7200587,
+        "volume_mean": 1338444419.7167861,
+        "last_24hour_volume": 969194194.2738055,
+        "upper_std": -0.6
     },
     "stellar": {
         "symbol": "XLM",
-        "hour": 0.06,
-        "day": -1.73,
-        "week": -4.17
+        "hour": 0.7,
+        "day": -1.89,
+        "week": -3.64
     },
     "bitcoin-cash": {
         "symbol": "BCH",
-        "hour": -0.31,
-        "day": -0.66,
-        "week": -0.82
+        "hour": 0.16,
+        "day": -0.96,
+        "week": -0.78
     },
     "crypto-com-chain": {
         "symbol": "CRO",
-        "hour": -1.35,
-        "day": 18.29,
-        "week": 117.32
+        "hour": 1.93,
+        "day": 17.68,
+        "week": 120.07
     },
     "avalanche-2": {
         "symbol": "AVAX",
-        "hour": -0.75,
-        "day": -1.77,
-        "week": 6.12
+        "hour": 0.39,
+        "day": -2.6,
+        "week": 6.53
     },
     "hedera-hashgraph": {
         "symbol": "HBAR",
-        "hour": -0.44,
-        "day": -1.5,
-        "week": 0.73
+        "hour": 0.24,
+        "day": -2.12,
+        "week": 0.83
     },
     "weth": {
         "symbol": "WETH",
-        "hour": -0.29,
-        "day": -2.54,
-        "week": 5.53
+        "hour": 0.18,
+        "day": -2.48,
+        "week": 5.7
     },
     "leo-token": {
         "symbol": "LEO",
-        "hour": -0.03,
-        "day": 0.36,
-        "week": -0.64
+        "hour": 0.09,
+        "day": 0.52,
+        "week": -0.62
     },
     "litecoin": {
         "symbol": "LTC",
-        "hour": -0.34,
-        "day": -0.8,
-        "week": -2.08
+        "hour": 0.44,
+        "day": -1.27,
+        "week": -1.79
     },
     "the-open-network": {
         "symbol": "TON",
-        "hour": -0.4,
-        "day": -0.38,
-        "week": -4.53
+        "hour": 0.22,
+        "day": -0.5,
+        "week": -4.35
     },
     "usds": {
         "symbol": "USDS",
-        "hour": -0.01,
-        "day": -0.01,
-        "week": 0.02
+        "hour": 0.01,
+        "day": 0.04,
+        "week": 0.03
     },
     "shiba-inu": {
         "symbol": "SHIB",
-        "hour": -0.66,
-        "day": -0.0,
-        "week": 0.88
+        "hour": 0.3,
+        "day": -0.76,
+        "week": 1.18
     },
     "binance-bridged-usdt-bnb-smart-chain": {
         "symbol": "BSC-USD",
-        "hour": 0.0,
-        "day": -0.06,
-        "week": 0.02
+        "hour": 0.01,
+        "day": 0.03,
+        "week": 0.03
     },
     "whitebit": {
         "symbol": "WBT",
-        "hour": -0.4,
-        "day": 0.07,
-        "week": 1.61
+        "hour": 0.16,
+        "day": -0.69,
+        "week": 1.09
     },
     "coinbase-wrapped-btc": {
         "symbol": "CBBTC",
-        "hour": -0.3,
-        "day": 0.15,
-        "week": -0.07
+        "hour": -0.04,
+        "day": -0.29,
+        "week": -0.09
     },
     "polkadot": {
         "symbol": "DOT",
-        "hour": -0.82,
-        "day": 0.56,
-        "week": 2.6
+        "hour": 0.68,
+        "day": 0.46,
+        "week": 3.08
     },
     "uniswap": {
         "symbol": "UNI",
-        "hour": -0.86,
-        "day": -1.15,
-        "week": -4.12
+        "hour": 0.75,
+        "day": -1.39,
+        "week": -3.41
     },
     "ethena-staked-usde": {
         "symbol": "SUSDE",
-        "hour": 0.02,
+        "hour": 0.01,
         "day": 0.08,
-        "week": 0.23
+        "week": 0.24
     },
     "bitget-token": {
         "symbol": "BGB",
-        "hour": -0.09,
-        "day": -1.17,
-        "week": -0.32
+        "hour": -0.19,
+        "day": -1.64,
+        "week": -1.09
     },
     "monero": {
         "symbol": "XMR",
         "hour": 0.85,
-        "day": -0.51,
-        "week": 2.66
+        "day": -0.01,
+        "week": 3.47
     },
     "aave": {
         "symbol": "AAVE",
-        "hour": -0.47,
-        "day": -2.64,
-        "week": 4.63
+        "hour": 0.03,
+        "day": -3.36,
+        "week": 5.64
     },
     "dai": {
         "symbol": "DAI",
-        "hour": -0.01,
-        "day": -0.01,
-        "week": -0.0
+        "hour": 0.01,
+        "day": -0.0,
+        "week": 0.01
     },
     "ethena": {
         "symbol": "ENA",
-        "hour": -0.78,
-        "day": 6.76,
-        "week": 5.57
+        "hour": 1.09,
+        "day": 6.8,
+        "week": 6.63
     },
     "pepe": {
         "symbol": "PEPE",
-        "hour": -1.34,
-        "day": -0.7,
-        "week": -3.26
+        "hour": 0.84,
+        "day": -1.1,
+        "week": -2.6
     },
     "mantle": {
         "symbol": "MNT",
-        "hour": -0.66,
-        "day": 6.6,
-        "week": 2.66
+        "hour": -0.64,
+        "day": 5.02,
+        "week": 1.69
     },
     "okb": {
         "symbol": "OKB",
-        "hour": 0.66,
-        "day": -1.54,
-        "week": -21.73
+        "hour": -0.64,
+        "day": -2.41,
+        "week": -22.29
     },
     "ethereum-classic": {
         "symbol": "ETC",
-        "hour": -0.79,
-        "day": -1.52,
-        "week": 2.19
+        "hour": 0.47,
+        "day": -1.71,
+        "week": 2.5
     },
     "jito-staked-sol": {
         "symbol": "JITOSOL",
-        "hour": -0.49,
-        "day": 3.3,
-        "week": 15.96
+        "hour": 1.09,
+        "day": 2.68,
+        "week": 18.29
     },
     "bittensor": {
         "symbol": "TAO",
-        "hour": -1.04,
-        "day": -1.87,
-        "week": -3.98
+        "hour": 0.83,
+        "day": -2.38,
+        "week": -2.47
     },
     "near": {
         "symbol": "NEAR",
-        "hour": -1.02,
-        "day": -1.67,
-        "week": 1.53
+        "hour": 0.64,
+        "day": -2.54,
+        "week": 2.04
     },
     "aptos": {
         "symbol": "APT",
-        "hour": -0.48,
-        "day": 0.46,
-        "week": -0.18
+        "hour": 0.66,
+        "day": -0.12,
+        "week": -0.35
     },
     "ondo-finance": {
         "symbol": "ONDO",
-        "hour": -0.81,
-        "day": -0.6,
-        "week": 1.88
+        "hour": 0.73,
+        "day": -1.32,
+        "week": 2.25
     },
     "pi-network": {
         "symbol": "PI",
-        "hour": 0.19,
-        "day": 2.85,
-        "week": -0.26
+        "hour": -0.09,
+        "day": 2.73,
+        "week": -0.36
     },
     "usdt0": {
         "symbol": "USDT0",
-        "hour": 0.04,
-        "day": -0.2,
-        "week": -0.01
+        "hour": 0.02,
+        "day": -0.05,
+        "week": -0.02
     },
     "arbitrum": {
         "symbol": "ARB",
-        "hour": -0.82,
-        "day": 1.26,
-        "week": 4.63
-    },
-    "binance-peg-weth": {
-        "symbol": "WETH",
-        "hour": -0.44,
-        "day": -1.94,
-        "week": 5.51
+        "hour": 0.06,
+        "day": -0.05,
+        "week": 4.56
     },
     "internet-computer": {
         "symbol": "ICP",
-        "hour": -1.11,
-        "day": -0.41,
-        "week": -1.56
+        "hour": 0.75,
+        "day": -1.05,
+        "week": -1.5
+    },
+    "binance-peg-weth": {
+        "symbol": "WETH",
+        "hour": 0.42,
+        "day": -2.37,
+        "week": 5.75
     },
     "polygon-ecosystem-token": {
         "symbol": "POL",
-        "hour": -0.95,
-        "day": 1.15,
-        "week": 2.73
+        "hour": 0.75,
+        "day": 0.36,
+        "week": 3.35
     },
     "usd1-wlfi": {
         "symbol": "USD1",
-        "hour": 0.03,
+        "hour": 0.01,
         "day": 0.01,
-        "week": 0.13
+        "week": 0.14,
+        "volume_std": 332875698.2535872,
+        "volume_mean": 486297525.6744562,
+        "last_24hour_volume": 491931162.5920977,
+        "upper_std": 0.02
     },
     "binance-staked-sol": {
         "symbol": "BNSOL",
-        "hour": -0.52,
-        "day": 2.66,
-        "week": 17.15
+        "hour": 1.1,
+        "day": 2.75,
+        "week": 18.81
     },
     "blackrock-usd-institutional-digital-liquidity-fund": {
         "symbol": "BUIDL",
         "hour": 0.0,
         "day": 0.0,
-        "week": 0.0
+        "week": 0.0,
+        "volume_std": 0.0,
+        "volume_mean": 0.0,
+        "last_24hour_volume": 0.0,
+        "upper_std": 0
     },
     "kaspa": {
         "symbol": "KAS",
-        "hour": -1.46,
-        "day": 0.65,
-        "week": 2.31
+        "hour": 0.71,
+        "day": 0.52,
+        "week": 3.83,
+        "volume_std": 33827528.31728662,
+        "volume_mean": 75995726.75862251,
+        "last_24hour_volume": 48520642.23584377,
+        "upper_std": -0.81
     },
     "algorand": {
         "symbol": "ALGO",
-        "hour": -0.67,
-        "day": -0.29,
-        "week": 0.83
+        "hour": 0.68,
+        "day": -1.28,
+        "week": 1.16,
+        "volume_std": 98522755.33946933,
+        "volume_mean": 117794986.51141259,
+        "last_24hour_volume": 91937588.23430611,
+        "upper_std": -0.26
     },
     "cosmos": {
         "symbol": "ATOM",
-        "hour": -0.9,
-        "day": 1.94,
-        "week": 3.89
+        "hour": 0.78,
+        "day": 1.5,
+        "week": 4.36,
+        "volume_std": 39216566.18120466,
+        "volume_mean": 109620446.26346508,
+        "last_24hour_volume": 102729278.93040802,
+        "upper_std": -0.18
     },
     "vechain": {
         "symbol": "VET",
-        "hour": -0.83,
-        "day": 0.06,
-        "week": 5.76
-    },
-    "gatechain-token": {
-        "symbol": "GT",
-        "hour": -0.38,
-        "day": 0.75,
-        "week": -4.5
+        "hour": 0.72,
+        "day": -0.85,
+        "week": 6.29,
+        "volume_std": 22193902.375481576,
+        "volume_mean": 47774793.21318995,
+        "last_24hour_volume": 47546192.837276526,
+        "upper_std": -0.01
     },
     "rocket-pool-eth": {
         "symbol": "RETH",
-        "hour": -0.65,
-        "day": -2.07,
-        "week": 4.32,
-        "volume_std": 9953277.961211529,
-        "volume_mean": 8857443.644752862,
-        "last_24hour_volume": 19707569.97292658,
-        "upper_std": 1.09
+        "hour": 0.39,
+        "day": -2.51,
+        "week": 4.65
+    },
+    "gatechain-token": {
+        "symbol": "GT",
+        "hour": -0.01,
+        "day": 0.6,
+        "week": -4.54
     },
     "jupiter-perpetuals-liquidity-provider-token": {
         "symbol": "JLP",
-        "hour": -0.33,
-        "day": 1.09,
-        "week": 6.86,
-        "volume_std": 21510564.89293426,
-        "volume_mean": 51752013.61953538,
-        "last_24hour_volume": 83558459.00360176,
-        "upper_std": 1.48
+        "hour": 0.7,
+        "day": 0.95,
+        "week": 7.57
     },
     "fasttoken": {
         "symbol": "FTN",
-        "hour": -0.24,
-        "day": -0.43,
-        "week": -0.24
+        "hour": -0.26,
+        "day": -0.44,
+        "week": -0.36
     },
     "susds": {
         "symbol": "SUSDS",
         "hour": 0.0,
-        "day": 0.01,
-        "week": 0.1,
-        "volume_std": 29297257.328384437,
-        "volume_mean": 28964656.053737134,
-        "last_24hour_volume": 62975303.326076664,
-        "upper_std": 1.16
-    },
-    "kelp-dao-restaked-eth": {
-        "symbol": "RSETH",
-        "hour": -0.33,
-        "day": -1.97,
-        "week": 5.43,
-        "volume_std": 2469218.036688493,
-        "volume_mean": 2283097.8667461663,
-        "last_24hour_volume": 657060.7820036015,
-        "upper_std": -0.66
+        "day": 0.02,
+        "week": 0.1
     },
     "pudgy-penguins": {
         "symbol": "PENGU",
-        "hour": -0.89,
-        "day": -1.69,
-        "week": -1.8,
-        "volume_std": 508284653.1664741,
-        "volume_mean": 555786586.4336189,
-        "last_24hour_volume": 275734863.21909845,
-        "upper_std": -0.55
+        "hour": 0.47,
+        "day": -2.37,
+        "week": -2.19
+    },
+    "kelp-dao-restaked-eth": {
+        "symbol": "RSETH",
+        "hour": 0.36,
+        "day": -2.48,
+        "week": 5.6
     },
     "render-token": {
         "symbol": "RENDER",
-        "hour": -1.21,
-        "day": -1.29,
-        "week": 1.87
+        "hour": 0.34,
+        "day": -1.64,
+        "week": 1.7
     },
     "story-2": {
         "symbol": "IP",
-        "hour": 0.04,
-        "day": 1.49,
-        "week": 7.45
+        "hour": 0.47,
+        "day": 1.7,
+        "week": 7.76
     },
     "worldcoin-wld": {
         "symbol": "WLD",
-        "hour": -0.64,
-        "day": -1.05,
-        "week": 0.29
+        "hour": 0.95,
+        "day": -0.86,
+        "week": 2.09
     },
     "sei-network": {
         "symbol": "SEI",
-        "hour": -1.37,
-        "day": -1.63,
-        "week": 0.79
+        "hour": 0.84,
+        "day": -1.7,
+        "week": 1.33
     },
     "kucoin-shares": {
         "symbol": "KCS",
-        "hour": 0.05,
-        "day": 3.54,
-        "week": 9.97
-    },
-    "bfusd": {
-        "symbol": "BFUSD",
-        "hour": 0.01,
-        "day": -0.04,
-        "week": 0.03
+        "hour": 0.14,
+        "day": 3.78,
+        "week": 10.16
     },
     "official-trump": {
         "symbol": "TRUMP",
-        "hour": -0.68,
-        "day": 0.9,
-        "week": 0.47
+        "hour": 0.3,
+        "day": 0.29,
+        "week": 1.4
     },
-    "stakewise-v3-oseth": {
-        "symbol": "OSETH",
-        "hour": -0.42,
-        "day": -1.85,
-        "week": 5.67
-    },
-    "fetch-ai": {
-        "symbol": "FET",
-        "hour": -0.64,
-        "day": 0.03,
-        "week": -4.69
-    },
-    "kinetic-staked-hype": {
-        "symbol": "KHYPE",
-        "hour": -1.81,
-        "day": -4.7,
-        "week": 13.52
-    },
-    "bonk": {
-        "symbol": "BONK",
-        "hour": -1.28,
-        "day": -0.38,
-        "week": -2.13
-    },
-    "liquid-staked-ethereum": {
-        "symbol": "LSETH",
-        "hour": -0.65,
-        "day": -1.8,
-        "week": 4.82
-    },
-    "filecoin": {
-        "symbol": "FIL",
-        "hour": -0.75,
-        "day": -0.16,
-        "week": -2.56
-    },
-    "flare-networks": {
-        "symbol": "FLR",
-        "hour": -0.99,
-        "day": -1.02,
-        "week": -5.12
-    },
-    "jupiter-exchange-solana": {
-        "symbol": "JUP",
-        "hour": -1.25,
-        "day": 3.57,
-        "week": 5.78
-    },
-    "lombard-staked-btc": {
-        "symbol": "LBTC",
-        "hour": -0.33,
-        "day": -0.17,
-        "week": -0.45
-    },
-    "quant-network": {
-        "symbol": "QNT",
-        "hour": -0.64,
-        "day": -0.65,
-        "week": -3.2
-    },
-    "sky": {
-        "symbol": "SKY",
-        "hour": -0.29,
-        "day": -3.99,
-        "week": -5.78
-    },
-    "usdtb": {
-        "symbol": "USDTB",
+    "bfusd": {
+        "symbol": "BFUSD",
         "hour": -0.01,
-        "day": -0.03,
-        "week": -0.0
-    },
-    "polygon-bridged-usdt-polygon": {
-        "symbol": "USDT",
-        "hour": 0.02,
-        "day": 0.01,
-        "week": 0.03,
-        "volume_std": 12990057.650231665,
-        "volume_mean": 28466247.18536043,
-        "last_24hour_volume": 34245068.58549528,
-        "upper_std": 0.44
-    },
-    "xdce-crowd-sale": {
-        "symbol": "XDC",
-        "hour": -0.5,
-        "day": 0.15,
-        "week": -3.54,
-        "volume_std": 14661534.034718426,
-        "volume_mean": 39748649.42018435,
-        "last_24hour_volume": 40050010.98109497,
-        "upper_std": 0.02
-    },
-    "four": {
-        "symbol": "FORM",
-        "hour": -0.09,
-        "day": 2.66,
-        "week": 1.9
-    },
-    "renzo-restaked-eth": {
-        "symbol": "EZETH",
-        "hour": -0.34,
-        "day": -2.06,
-        "week": 5.57
-    },
-    "injective-protocol": {
-        "symbol": "INJ",
-        "hour": -1.27,
-        "day": 3.87,
-        "week": 3.78
-    },
-    "falcon-finance": {
-        "symbol": "USDF",
-        "hour": 0.0,
         "day": -0.03,
         "week": 0.06
     },
+    "stakewise-v3-oseth": {
+        "symbol": "OSETH",
+        "hour": 0.36,
+        "day": -2.57,
+        "week": 5.82
+    },
+    "fetch-ai": {
+        "symbol": "FET",
+        "hour": 0.25,
+        "day": -1.14,
+        "week": -4.18
+    },
+    "kinetic-staked-hype": {
+        "symbol": "KHYPE",
+        "hour": -0.41,
+        "day": -6.27,
+        "week": 11.67
+    },
+    "bonk": {
+        "symbol": "BONK",
+        "hour": 0.81,
+        "day": -1.08,
+        "week": -0.38
+    },
+    "liquid-staked-ethereum": {
+        "symbol": "LSETH",
+        "hour": 0.04,
+        "day": -2.44,
+        "week": 5.66
+    },
+    "filecoin": {
+        "symbol": "FIL",
+        "hour": 0.8,
+        "day": -0.02,
+        "week": -1.94
+    },
+    "jupiter-exchange-solana": {
+        "symbol": "JUP",
+        "hour": 0.92,
+        "day": 2.26,
+        "week": 7.48
+    },
+    "flare-networks": {
+        "symbol": "FLR",
+        "hour": 0.47,
+        "day": -0.46,
+        "week": -4.55
+    },
+    "lombard-staked-btc": {
+        "symbol": "LBTC",
+        "hour": -0.01,
+        "day": 0.08,
+        "week": 0.21
+    },
+    "quant-network": {
+        "symbol": "QNT",
+        "hour": 0.33,
+        "day": -0.82,
+        "week": -2.95
+    },
+    "sky": {
+        "symbol": "SKY",
+        "hour": 0.25,
+        "day": -4.06,
+        "week": -5.9
+    },
+    "usdtb": {
+        "symbol": "USDTB",
+        "hour": 0.02,
+        "day": -0.02,
+        "week": 0.05
+    },
+    "polygon-bridged-usdt-polygon": {
+        "symbol": "USDT",
+        "hour": -0.01,
+        "day": -0.02,
+        "week": 0.02
+    },
+    "four": {
+        "symbol": "FORM",
+        "hour": 0.4,
+        "day": 3.24,
+        "week": 1.62
+    },
+    "renzo-restaked-eth": {
+        "symbol": "EZETH",
+        "hour": 0.36,
+        "day": -2.58,
+        "week": 5.38
+    },
+    "xdce-crowd-sale": {
+        "symbol": "XDC",
+        "hour": -1.52,
+        "day": -1.86,
+        "week": -5.02
+    },
+    "injective-protocol": {
+        "symbol": "INJ",
+        "hour": 0.83,
+        "day": 3.35,
+        "week": 4.47
+    },
+    "falcon-finance": {
+        "symbol": "USDF",
+        "hour": 0.02,
+        "day": 0.0,
+        "week": 0.08
+    },
     "mantle-staked-ether": {
         "symbol": "METH",
-        "hour": -0.79,
-        "day": -2.17,
-        "week": 5.83
-    },
-    "hash-2": {
-        "symbol": "HASH",
-        "hour": -0.18,
-        "day": -1.72,
-        "week": 2.63,
-        "volume_std": 19113.61670773304,
-        "volume_mean": 13522.177911647053,
-        "last_24hour_volume": 9102.700981515272,
-        "upper_std": -0.23
+        "hour": 0.22,
+        "day": -2.44,
+        "week": 5.62
     },
     "celestia": {
         "symbol": "TIA",
-        "hour": -1.1,
-        "day": 0.72,
-        "week": 1.55
+        "hour": 0.78,
+        "day": -0.18,
+        "week": 3.07
     },
     "tether-gold": {
         "symbol": "XAUT",
-        "hour": 0.27,
-        "day": 0.71,
-        "week": 2.31
+        "hour": -0.14,
+        "day": 0.91,
+        "week": 2.59
     },
     "nexo": {
         "symbol": "NEXO",
-        "hour": 0.43,
-        "day": 1.09,
-        "week": 0.01
+        "hour": -0.49,
+        "day": 0.88,
+        "week": -1.39
     },
-    "time": "Aug 28 2025 20:20:15"
+    "jupiter-staked-sol": {
+        "symbol": "JUPSOL",
+        "hour": 1.33,
+        "day": 2.64,
+        "week": 18.22
+    },
+    "time": "Aug 28 2025 21:16:45"
 }
